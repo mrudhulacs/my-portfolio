@@ -51,6 +51,7 @@ Upload to GitHub Pages for free hosting.
 
 ```html
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,7 +66,7 @@ Upload to GitHub Pages for free hosting.
         <table width="100%" cellpadding="15">
             <tr>
                 <td width="20%" align="center">
-                    <img src="myphoto.jpg"
+                    <img src="myphoto.png"
                          alt="Mrudhula's Profile Photo"
                          width="150"
                          height="150">
