@@ -208,8 +208,6 @@ Upload to GitHub Pages for free hosting.
 ## OUTPUT
 
 ![alt text](image1.png)
-
-
 ![alt text](image2.png)
 
 
