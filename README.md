@@ -49,101 +49,168 @@ Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
 
-```
+```html
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Mrudhula's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mrudhula - Portfolio</title>
 </head>
-<body>
 
-    <center>
-        <h1>MY PORTFOLIO</h1>
-        <img src="myphoto.jpg" alt="My Photo" width="150">
-        <h2>CHITTOOR SARAVANA MRUDHULA</h2>
-        <h3>BE - Computer Science and Engineering</h3>
-        <p>Welcome to my portfolio!</p>
-    </center>
+<body bgcolor="white" text="black">
+
+    <header>
+        <table width="100%" cellpadding="15">
+            <tr>
+                <td width="20%" align="center">
+                    <img src="myphoto.jpg"
+                         alt="Mrudhula's Profile Photo"
+                         width="150"
+                         height="150">
+                </td>
+                <td>
+                    <h1>CHITTOOR SARAVANA MRUDHULA</h1>
+                    <p>BE – Computer Science and Engineering</p>
+                    <p>Saveetha Engineering College</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+    </header>
+
+    <nav>
+        <center>
+            <a href="#about">About</a> |
+            <a href="#domains">Domains</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#certification">Certification</a> |
+            <a href="#hobbies">Hobbies</a> |
+            <a href="#contact">Contact</a>
+        </center>
+    </nav>
+
+    <br>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science and Engineering student interested
+            in technology, web development, cloud computing, and
+            artificial intelligence. I enjoy learning new skills
+            and working on creative projects.
+        </p>
+    </section>
+
+    <section id="domains">
+        <h2>Domains</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Cloud Computing</li>
+            <li>Artificial Intelligence</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML and CSS Basics</li>
+            <li>Python Basics</li>
+            <li>C Programming</li>
+            <li>Problem-solving</li>
+            <li>Communication</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Personal Portfolio Website</li>
+            <li>AI-Based Intrusion Detection System</li>
+            <li>Eco-Friendly Packaging Project</li>
+        </ul>
+
+        <h3>Major Project</h3>
+        <p>
+            Federated Deep Learning for Privacy-Preserving
+            Intrusion Detection with Zero Trust Security.
+        </p>
+        <p>Dataset: CICIDS2017</p>
+    </section>
+
+    <section id="certification">
+        <h2>Certification</h2>
+        <ul>
+            <li>AWS Certified Cloud Practitioner</li>
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Drawing</li>
+            <li>Cooking</li>
+            <li>Photography</li>
+            <li>Listening to Music</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>
+            <b>Email:</b>
+            <a href="mailto:mrudhula235@gmail.com">
+                mrudhula235@gmail.com
+            </a>
+        </p>
+
+        <p>
+            <b>Phone:</b>
+            <a href="tel:+919391723057">+91 9391723057</a>
+        </p>
+
+        <p>
+            <b>GitHub:</b>
+            <a href="https://github.com/mrudhulacs" target="_blank">
+                My GitHub Profile
+            </a>
+        </p>
+
+        <p>
+            <b>LinkedIn:</b>
+            <a href="https://www.linkedin.com/in/mrudhula-c-s-a06629366"
+               target="_blank">
+                My LinkedIn Profile
+            </a>
+        </p>
+    </section>
 
     <hr>
 
-    <h2>About Me</h2>
-    <p>Hello! I am Mrudhula, a Computer Science and Engineering student.
-    I enjoy learning new technologies, drawing and cooking.</p>
-
-    <hr>
-
-    <h2>My Domain</h2>
-    <ul>
-        <li>Web Development</li>
-        <li>Cloud Computing</li>
-        <li>Artificial Intelligence</li>
-    </ul>
-
-    <hr>
-
-    <h2>My Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS Basics</li>
-        <li>Python Basics</li>
-    </ul>
-
-    <hr>
-
-    <h2>Education</h2>
-    <p>BE - Computer Science and Engineering</p>
-    <p>Saveetha Engineering College</p>
-
-    <hr>
-
-    <h2>My Projects</h2>
-    <ol>
-        <li>Personal Portfolio Website</li>
-        <li>Eco-Friendly Packaging Project</li>
-        <li>AI-Based Intrusion Detection System</li>
-    </ol>
-
-    <hr>
-
-    <h2>Certifications</h2>
-    <p>AWS Certified Cloud Practitioner</p>
-
-    <hr>
-
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Drawing</li>
-        <li>Cooking</li>
-        <li>Listening to Music</li>
-    </ul>
-
-    <hr>
-
-    <h2>Contact Me</h2>
-    <p>Email: mrudhula235@gmail.com</p>
-    <p>Location: India</p>
-    <p><a href="https://www.linkedin.com/in/mrudhula-c-s-a06629366">LinkedIn</a></p>
-    <p><a href="https://github.com/mrudhulacs">GitHub</a></p>
-
-    <hr>
-
-    <center>
-        <p>Thank you for visiting my portfolio!</p>
-        <p>Copyright 2026 - Mrudhula</p>
-    </center>
+    <footer>
+        <center>
+            <p>
+                &copy; 2026 CHITTOOR SARAVANA MRUDHULA.
+                All Rights Reserved.
+            </p>
+        </center>
+    </footer>
 
 </body>
 </html>
+
 
 ```
 
 ## OUTPUT
 
-<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/65c71748-b7c6-4599-af71-3254af182daf" />
+![alt text](image1.png)
 
-<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/b67679fd-db30-4a78-b24d-2443ed147010" />
+
+![alt text](image2.png)
 
 
 ## RESULT
